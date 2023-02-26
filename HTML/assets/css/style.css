@@ -59,9 +59,15 @@ a:hover, a:focus, a:active {
   color: #fff;
   background: #1f76bd;
 }
+
 .navbar-main .navbar-brand {
   border-bottom: none !important;
 }
+.navbar-main .navbar-brand img{
+  height: 40px;
+  width: 50px;
+}
+
 .navbar-main a:hover,
 .navbar-main a:active,
 .navbar-main a:focus,
@@ -419,8 +425,9 @@ a:hover, a:focus, a:active {
 ================================= */
 .page-heading {
   background: url('../images/heading-bg.jpg?1428795369') no-repeat center;
-  background-size: cover;
+  background-size:cover;
   min-height: 190px;
+  height: 100%;
   color: #fff;
   padding: 25px 15px;
   margin-bottom: 50px;
